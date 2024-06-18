@@ -3,7 +3,7 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "yarn install"
+      "command": "npm install"
     }
   ],
 
@@ -11,32 +11,32 @@
   "tasks": {
     "ng": {
       "name": "ng",
-      "command": "yarn ng",
+      "command": "npm run ng",
       "runAtStart": false
     },
     "start": {
       "name": "start",
-      "command": "yarn start",
+      "command": "npm start",
       "runAtStart": true
     },
     "build": {
       "name": "build",
-      "command": "yarn build",
+      "command": "npm run build",
       "runAtStart": false
     },
     "watch": {
       "name": "watch",
-      "command": "yarn watch",
+      "command": "npm run watch",
       "runAtStart": false
     },
     "test": {
       "name": "test",
-      "command": "yarn test",
+      "command": "npm run test",
       "runAtStart": false
     },
     "serve:ssr:acorex-showcase": {
       "name": "serve:ssr:acorex-showcase",
-      "command": "yarn serve:ssr:acorex-showcase",
+      "command": "npm serve:ssr:acorex-showcase",
       "runAtStart": false
     }
   }
